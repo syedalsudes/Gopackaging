@@ -72,7 +72,7 @@ export default function Hero() {
           {/* RIGHT COLUMN: Neat Video Box */}
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             {/* The Video Container - Aspect ratio set for perfect balance */}
-            <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900 shadow-2xl shadow-black/50 lg:aspect-square">
+            <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-[2rem] bg-slate-900 shadow-2xl shadow-black/50 lg:aspect-square">
               <video
                 src="/Videos/herosection.mp4"
                 autoPlay
